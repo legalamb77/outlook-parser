@@ -42,7 +42,7 @@ while(<>)
 	{
 		$concept = $1;
 	}
-	elsif(/^NCI Trial ID:	 (.*)$/)
+	elsif(/^NCI Trial ID:	\s*(.*)$/)
 	{
 		$protocol = $1;
 	}
